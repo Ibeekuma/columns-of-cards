@@ -86,3 +86,15 @@ h3 {
 .four {
   background-color: #999;
 }
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  padding: .75rem;
+}
+
+.section h3 {
+  flex-grow: 1;
+}
